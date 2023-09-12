@@ -1,0 +1,122 @@
+body {
+  .nav-link {
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    font-weight: 500;
+    color: black;
+  }
+  .html {
+    display: flex;
+    justify-content: center;
+    .container__item {
+      .container {
+        .make {
+          cursor: no-drop;
+          max-width: 540px;
+          margin-top: 160px;
+          color: #151515;
+          font-family: Epilogue, sans-serif;
+          font-size: 80px;
+          font-weight: 700;
+          line-height: 80px;
+          letter-spacing: -1.111px;
+          margin-bottom: 48px;
+        }
+        .get {
+          cursor: no-drop;
+          max-width: 445px;
+          color: #686868;
+          font-family: Epilogue, sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+          margin-bottom: 51px;
+        }
+        .btn__one {
+          button {
+            cursor: pointer;
+            transition: all 0.7s;
+            border-radius: 15px;
+            background: #151515;
+            width: 163px;
+            height: 56px;
+            color: #fafafa;
+            text-align: center;
+            font-family: Epilogue, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -0.25px;
+            margin-bottom: 115px;
+          }
+          button:hover {
+            transition: all 0.7s;
+            color: black;
+            background: white;
+            border: 2px solid black;
+          }
+        }
+      }
+      .svg {
+        display: flex;
+        max-width: 477.634px;
+        justify-content: space-between;
+        // flex-wrap: wrap;
+      }
+    }
+    .img {
+      .img__one {
+        margin-top: 70px;
+        margin-left: 125px;
+        max-width: 480px;
+        max-height: 640px;
+        flex-shrink: 0;
+        // border: 1px solid red;
+      }
+    }
+  }
+  @media screen and(min-width: 900px) {
+    .img__two {
+      display: none;
+    }
+  }
+  @media screen and(max-width: 900px) {
+    .img__two {
+      display: flex;
+      justify-content: center;
+    }
+    .img__three {
+      margin-top: 70px;
+    }
+    .img {
+      display: none;
+    }
+    .html {
+      flex-direction: column;
+      align-items: center;
+    }
+    .make {
+      color: #151515;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.5px;
+    }
+    .get {
+      color: #686868;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+    }
+    .btn__one {
+      transform: translateX(-40px);
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media screen and(max-width) {
+  }
+}
