@@ -76,12 +76,12 @@ body {
       }
     }
   }
-  @media screen and(min-width: 900px) {
+  @media screen and (min-width: 900px) {
     .img__two {
       display: none;
     }
   }
-  @media screen and(max-width: 900px) {
+  @media screen and (max-width: 900px) {
     .img__two {
       display: flex;
       justify-content: center;
@@ -117,6 +117,6 @@ body {
       justify-content: center;
     }
   }
-  @media screen and(max-width) {
+  @media screen and (max-width) {
   }
 }
